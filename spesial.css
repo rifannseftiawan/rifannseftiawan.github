@@ -1,0 +1,61 @@
+body {
+  background-color: #000;
+  animation: backgroundAnimation 10s infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% { background-color: #ff5733; }
+  25% { background-color: #33ff57; }
+  50% { background-color: #3333ff; }
+  75% { background-color: #ff33ee; }
+  100% { background-color: #ff5733; }
+}
+
+#audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#audio-player {
+  width: 300px;
+}
+
+#logo {
+  width: 300px;
+  height: 300px;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#masukButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Warna teks biru */
+  background-color: #686868; /* Warna latar belakang abu-abu */
+}
+
+
+
+
